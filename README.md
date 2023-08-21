@@ -1,5 +1,5 @@
 # Django Journal App
-A django web application that allows a user to view topics of interest and entries per topic.
+A django web application that allows a user to create, update, and view topics and entries while they learn.
 
 Users can:
 - Register
