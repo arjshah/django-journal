@@ -1,8 +1,26 @@
 # Django Journal App
-This is a simple Django web application that allows a user to view topics of interest and entries per topic. Currently, the only way to create topics and entries is via the Django Admin interface. I'll be adding new functionality in the future to:
+A django web application that allows a user to view topics of interest and entries per topic.
 
-- Allow non-admin users to create topics and entries
-- Allow users to create accounts and login
-- Allow users to share topics with other users
+Users can:
+- Register
+- Login
+- Create new topic
+- Create entries per topic
+- View and update topic and entries
+- Logout
+- Admin users can manage data using Django Admin
 
-I used GitHub Copilot while building this application. The auto-complete feature was nice, but it made a few mistakes (i.e suggesting incorrect function references) that I had to correct.
+I'm using:
+- Django version 4.2.4
+- Bootstrap4
+
+I used GitHub Copilot in building this application. The auto-complete feature was nice, but it did make a few incorrect reference calls and syntax errors.
+
+To run:
+- Clone repository
+- Configur a virtualenv
+- Make sure you have python 3.9+, django 4.2+, and bootstrap4 installed
+- Run on localhost using python manage.py runserver 8000
+
+
+
